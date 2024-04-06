@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style_for_webPage_1.css">
+        <script>
+            function myF(){
+                document.getElementById("id1").textContent="use your FaceBook Id for register";
+                document.getElementById("i1").placeholder="📖 FaceBook Id";
+            }
+            function myI(){
+                document.getElementById("id1").textContent="use your Instagram Id for register";
+                document.getElementById("i1").placeholder="ℹ️ Instagram Id";
+            }
+            function myT(){
+                document.getElementById("id1").textContent="use your Twitter Id for register";
+                document.getElementById("i1").placeholder="✖️ Twitter Id";
+            }
+            function myE(){
+                document.getElementById("id1").textContent="use your Email for register";
+                document.getElementById("i1").placeholder="✉️ Email";
+            }
+            function up(){
+                alert("userName='JGKrishna' Password='JGK@123'")
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div class="main">
+            <div id="d1" class="div1">
+                <h1>Welcome Friends</h1>
+                <p>you keep Connected with us please<br>
+                login with your personal info</p>
+                <a href="web_page_1-1.html" onclick="up()"><button>log in</button></a>
+            </div>
+            <!---->
+            <div class="div2">
+                <h1>Create Account With</h1>
+                <h2>Any one of this</h2>
+                <img onclick="myE()" src ="img/g.png" width="19px"/>
+                <img onclick="myF()" src ="img/f.jpg" width="20px"/>
+                <img onclick="myT()" src ="img/t.jpg" width="20px"/>
+                <img onclick="myI()" src ="img/i.jpg" width="20px"/>               
+                <p id="id1">use your Email for register</p>
+                <form>
+                    <input placeholder="👤 Name" type="text" />
+                    <br>
+                    <br>
+                    <input type="text" id="i1" placeholder="✉️ Email"  />
+                    <br>
+                    <br>
+                    <input placeholder="🔒 Password" type="password"/>
+                    <br>
+                    <br>             
+                </form>
+                <a href="me-1.html"><button>Signin</button></a>
+            </div>
+        </div>
+    </body>
+</html>

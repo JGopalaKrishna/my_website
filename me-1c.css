@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.mainDiv{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.div1{
+    width: 1000px;
+    height: 200px;
+    border-radius: 25px;
+    background-color:rgb(10, 240, 60);
+    color:blue;
+}
+.div1 button{
+    background-color:blue;
+    border: 2px solid rgb(207, 238, 6);
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 25px ;
+    color: white;
+}
+
+.div2{
+    background-color:blue;
+    width: 1000px;
+    height: 150px;
+    border-radius: 25px;
+    color: rgb(9, 249, 61);
+}
+
+input{
+    color: rgb(10, 33, 244);
+    font-size: 20px;
+}

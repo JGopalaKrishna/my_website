@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="me-1c.css">
+    <title>me-1</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="div1">
+            <h2 style="margin-top:10px ;"><b>Welcome to My World</b></h2>
+            <form id="myForm">
+                <label for="n1"><b>Enter 1st Number</b></label>
+                <input id="n1" type="number" name="n1"><br><br>
+                <label for="n2"><b>Enter 2nd Number</b></label>
+                <input id="n2" name="n2" type="number"><br><br>
+                <button type="button" onclick="add(+ent1.value,+ent2.value)">Add</button>
+                <button type="button" onclick="sub(+ent1.value,+ent2.value)">Sub</button>
+                <button type="button" onclick="mul(+ent1.value,+ent2.value)">Mul</button>
+                <button type="button" onclick="div(+ent1.value,+ent2.value)">Div</button>
+            </form>
+        </div>
+        <div class="div2">
+            <h1>Answer:</h1>
+            <h2 id="p1"></h2>
+        </div>
+        
+    </div>
+</body>
+<script src="me-1.js">
+    alert("Be Carefull now you are in my world");
+  
+
+    /* function add(a,b){
+        //let a = document.getElementById("n1").value;
+        //let b = document.getElementById("n2").value;
+    let c=parseInt(a)+ parseInt(b);
+    let z ="Addtion of "+a+" and "+b+" = ";
+        document.getElementById("p1").innerHTML=z+c;
+    }
+    function sub(){
+    let a = document.getElementById("n1").value;
+    let b = document.getElementById("n2").value;
+    let c=parseInt(a)- parseInt(b);
+    let z ="Substraction of "+a+" and "+b+" = ";
+        document.getElementById("p1").innerHTML=z+c;
+    }
+    function mul(){
+    let a = document.getElementById("n1").value;
+    let b = document.getElementById("n2").value;
+    let c=parseInt(a)* parseInt(b);
+    let z ="Multipilication of "+a+" and "+b+" = ";
+        document.getElementById("p1").innerHTML=z+c;
+    }
+    function div(){
+    let a = document.getElementById("n1").value;
+    let b = document.getElementById("n2").value;
+    let c=parseInt(a)/ parseInt(b);
+    let z ="Division of "+a+" and "+b+" = ";
+        document.getElementById("p1").innerHTML=z+c;
+    } */
+</script>
+</html>
