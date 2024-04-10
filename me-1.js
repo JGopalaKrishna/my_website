@@ -22,7 +22,7 @@ function div(a,b){
     par.innerText=`Division of ${a} and ${b} = ${c}`
 }
 
-function div(a,b){
+function mat(a,b){
     var c ='';
     var num=a+b;
     for(i=1;i<=num;i++){
