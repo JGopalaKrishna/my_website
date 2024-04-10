@@ -6,7 +6,7 @@ body{
 }
 .mainDiv{
     width: 1000px;
-    height: 500px;
+    height: 5000px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -29,7 +29,7 @@ body{
 .div2{
     background-color:blue;
     width: 1000px;
-    height: 150px;
+    height: 1500px;
     border-radius: 25px;
     color: rgb(9, 249, 61);
 }
