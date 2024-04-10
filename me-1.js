@@ -21,3 +21,14 @@ function div(a,b){
     let c = a/b;
     par.innerText=`Division of ${a} and ${b} = ${c}`
 }
+
+function div(a,b){
+    var c =''
+    for(i=1;i<=num;i++){
+            for(j=1;j<=i;j++){
+                c+='*'
+            }
+        c+='<br>'
+    }
+    par.innerText=` of ${a} and ${b} =\n ${c}`
+}
