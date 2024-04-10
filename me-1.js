@@ -26,10 +26,10 @@ function mat(a,b){
     var c ='';
     var num=a+b;
     for(i=1;i<=num;i++){
-            for(j=1;j<=i;j++){
+            for(j=1;j<=num;j++){
                 c+='*'
             }
-        c+='<br>'
+        c+='\n'
     }
     par.innerText=` of ${a} and ${b} =\n ${c}`
 }
