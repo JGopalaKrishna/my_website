@@ -23,7 +23,8 @@ function div(a,b){
 }
 
 function div(a,b){
-    var c =''
+    var c ='';
+    var num=a+b;
     for(i=1;i<=num;i++){
             for(j=1;j<=i;j++){
                 c+='*'
